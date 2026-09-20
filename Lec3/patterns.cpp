@@ -2,19 +2,19 @@
 using namespace std;
 
 int main() {
-    // int n = 5; // Example size
+    int n = 5; // Example size
     
-    // //Square Pattern (A B C ..)
+    //Square Pattern (A B C ..)
     
 
-    // for (int i = 0; i < n; i++) {
-    //     char ch = 'A';
-    //     for (int j = 0; j < n; j++) {
-    //         cout << ch << " "; 
-    //         ch = ch+1;
-    //     }
-    //     cout << endl;
-    // }
+    for (int i = 0; i < n; i++) {
+        char ch = 'A';
+        for (int j = 0; j < n; j++) {
+            cout << ch << " "; 
+            ch = ch+1;
+        }
+        cout << endl;
+    }
 
     // // Square Pattern (1 2 3 ..)
     // for (int i = 0; i < n; i++) {
@@ -225,34 +225,34 @@ int main() {
     //     cout << endl;
     // }
 
-    //Butterfly Pattern
-    int n = 3;
-    for (int i=0; i<n; i++) {
-        for (int j=0; j<i+1; j++) {
-            cout << "*" ;
-        }
+    // //Butterfly Pattern
+    // int n = 3;
+    // for (int i=0; i<n; i++) {
+    //     for (int j=0; j<i+1; j++) {
+    //         cout << "*" ;
+    //     }
 
-        for (int j=0; j<2*(n-i-1); j++) {
-            cout << " ";
-        }
-        for (int j=0; j<i+1; j++) {
-            cout << "*" ;
-        }
-        cout << endl;
-    }
-    for (int i=0; i<n; i++) {
-        for (int j=n-i; j>0; j--) {
-            cout << "*" ;
-        }
-        for(int j=0; j<2*i; j++) {
-            cout << " ";
-        }
-        for (int j=n-i; j>0; j--) {
-            cout << "*" ;
-        }
+    //     for (int j=0; j<2*(n-i-1); j++) {
+    //         cout << " ";
+    //     }
+    //     for (int j=0; j<i+1; j++) {
+    //         cout << "*" ;
+    //     }
+    //     cout << endl;
+    // }
+    // for (int i=0; i<n; i++) {
+    //     for (int j=n-i; j>0; j--) {
+    //         cout << "*" ;
+    //     }
+    //     for(int j=0; j<2*i; j++) {
+    //         cout << " ";
+    //     }
+    //     for (int j=n-i; j>0; j--) {
+    //         cout << "*" ;
+    //     }
 
-        cout << endl;
-    }
+    //     cout << endl;
+    // }
 
 
 
@@ -261,3 +261,5 @@ int main() {
     
 
 
+      
+           
