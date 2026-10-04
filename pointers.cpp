@@ -6,7 +6,7 @@ int main() {
     int a = 10;
     int* ptr = &a;
     int** ptr2 = &ptr;
-    int** ptr1 = NULL;
+    int** ptr1 = NULL;    
 
 
     cout << &a << endl;
